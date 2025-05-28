@@ -20,7 +20,7 @@ int main(){
         int x,y;
         cin>>x>>y;
         if(((x+y)%3==0) && (2*min(x,y)>=max(x,y)))cout<<"YES"<<endl;
-        else cout<<"NO"<<endl;
+        else cout<<" NO "<<endl;
     }
         
 }
